@@ -6,15 +6,15 @@ from Controllers.Partners import PartnersController
 from Models.Partners import PartnersModel
 
 
-PARTNERSBP = "/patners"
+PARTNERSBP = "/partners"
 
 
 if __name__ == "__main__":
     print("STARTING AN APPLICATION")
     app = Flask(__name__)
 
-    bp = Blueprint(PARTNERSBP, __name__, url_prefix='/patners')
-    app.register_blueprint(bp)
+    bp = Blueprint(PARTNERSBP, __name__)
+    app.register_blueprint(bp, url_prefix="/partners")
     router = AppRouter(bp)
     client = MongoClient("localhost", 27017, username="username", password="password")
     db = client.db
