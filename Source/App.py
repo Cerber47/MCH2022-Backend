@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print("STARTING AN APPLICATION")
     app = Flask(__name__)
 
-    bp = Blueprint(PARTNERSBP, __name__)
+    bp = Blueprint(PARTNERSBP, __name__, url_prefix='/patners')
     app.register_blueprint(bp)
     router = AppRouter(bp)
     client = MongoClient("localhost", 27017, username="username", password="password")
