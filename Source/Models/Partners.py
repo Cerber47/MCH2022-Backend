@@ -1,7 +1,7 @@
 
 
 class PartnersModel:
-    def __int__(self, client):
+    def __init__(self, client):
         self.dao = client.db.patrners
 
     def insert(self,

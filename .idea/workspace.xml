@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5cc5755-5fb4-4b2e-91d0-cd4d1ee0457b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Source/App.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Models/Partners.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Models/Partners.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Models/Partners.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="200">
+              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/App.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="381">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -72,9 +73,9 @@
         <option value="$PROJECT_DIR$/Source/Controllers/partners.py" />
         <option value="$PROJECT_DIR$/Source/Models/Parthner.py" />
         <option value="$PROJECT_DIR$/Source/App/App.py" />
-        <option value="$PROJECT_DIR$/Source/Models/Partners.py" />
         <option value="$PROJECT_DIR$/Source/Controllers/Partners.py" />
         <option value="$PROJECT_DIR$/Source/Routers/Router.py" />
+        <option value="$PROJECT_DIR$/Source/Models/Partners.py" />
         <option value="$PROJECT_DIR$/Source/App.py" />
       </list>
     </option>
@@ -258,13 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Models/Partners.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Routers/Router.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -272,10 +266,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Models/Partners.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Source/App.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="381">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
