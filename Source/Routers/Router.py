@@ -6,6 +6,7 @@ class AppRouter:
         self.bp = bp
 
     def route_partners(self, controller):
-        self.bp.route("/", method=["GET"])(controller.get_all)
-        self.bp.route("/<int:id>", method=["GET"])(controller.get_one)
-        self.bp.route("/", method=["POST"])(controller.store)
+        print("ROUTING")
+        self.bp.route("/", methods=["GET"])(controller.get_all)
+        self.bp.route("/<int:id>", methods=["GET"])(controller.get_one)
+        self.bp.route("/", methods=["POST"])(controller.store)

@@ -10,6 +10,7 @@ PARTNERSBP = "/patners"
 
 
 if __name__ == "__main__":
+    print("STARTING AN APPLICATION")
     app = Flask(__name__)
     router = AppRouter(Blueprint(PARTNERSBP, __name__))
     client = MongoClient("localhost", 27017, username="username", password="password")
@@ -21,4 +22,4 @@ if __name__ == "__main__":
 
     router.route_partners(controller)
 
-    app.run()
+    app.run(host="0.0.0.0")
