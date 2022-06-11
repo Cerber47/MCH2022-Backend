@@ -1,6 +1,6 @@
 
 
-class Partners:
+class PartnersModel:
     def __int__(self, client):
         self.dao = client.db.patrners
 

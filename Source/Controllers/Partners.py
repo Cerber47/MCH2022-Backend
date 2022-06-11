@@ -1,5 +1,6 @@
 from flask import request
 
+
 class PartnersController:
     def __init__(self, model):
         self.model = model
