@@ -18,7 +18,7 @@ if __name__ == "__main__":
     client = MongoClient("localhost", 27017, username="username", password="password")
     db = client.db
 
-    partners_model = PartnersModel()
+    partners_model = PartnersModel(client)
 
     controller = PartnersController(partners_model)
 

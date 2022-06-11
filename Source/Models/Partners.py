@@ -34,7 +34,14 @@ class PartnersModel:
         })
 
     def read(self):
-        return self.dao.find()
+        cursor = self.dao.find()
+        if cursor:
+            partners = []
+            for _partner in cursor:
+                partners.append(_partner)
+            return {"partners": partners}
+        else:
+            return {"Error": "No cursor founded"}
 
     #def
 
