@@ -16,7 +16,7 @@ class PartnersModel:
                email,
                web
                ):
-        insert = self.dao.insert({
+        insert = self.dao.insert_one({
             "company": {
                 "INN": INN,
                 "name": companyName,
