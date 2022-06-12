@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     bp = Blueprint(PARTNERSBP, __name__)
     router = AppRouter(bp)
-    client = MongoClient("localhost", 27017, username="username", password="password")
+    client = MongoClient("localhost", 27017)
     db = client.db
 
     partners_model = PartnersModel(client)

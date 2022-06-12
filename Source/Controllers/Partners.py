@@ -24,7 +24,7 @@ class PartnersController:
         field = content["field"]
         production = content["production"]
 
-        return self.model.insert(
+        insert = self.model.insert(
                INN=INN,
                companyName=name,
                legalAddress=legalAddress,
@@ -35,6 +35,8 @@ class PartnersController:
                email=email,
                web=webPage
                )
+        print(insert)
+        return insert
 
     def update(self, id, json):
         pass

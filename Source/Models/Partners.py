@@ -1,3 +1,4 @@
+import time
 
 
 class PartnersModel:
@@ -15,7 +16,7 @@ class PartnersModel:
                email,
                web
                ):
-        return self.dao.insert({
+        insert = self.dao.insert({
             "company": {
                 "INN": INN,
                 "name": companyName,
@@ -30,8 +31,12 @@ class PartnersModel:
                 "legalAddress": legalAddress
             },
             "field": fieldOfWork,
-            "production": productionField
+            "production": productionField,
+            "status": 0,
+            "creationDate": time.time()
         })
+        print(insert)
+        return insert
 
     def read(self):
         cursor = self.dao.find()
