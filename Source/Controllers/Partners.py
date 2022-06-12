@@ -1,5 +1,5 @@
 from flask import request
-from Source.Encoder import CustomJSONEncoder
+from Encoder import CustomJSONEncoder
 import json
 
 
@@ -9,7 +9,7 @@ class PartnersController:
 
     def get_all(self):
         data = self.model.read()
-        return json.encode(data, cls=CustomJSONEncoder)
+        return CustomJSONEncoder().encode(data)
 
     def get_one(self, id):
         pass
