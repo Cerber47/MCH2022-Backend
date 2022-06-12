@@ -11,8 +11,8 @@ class PartnersController:
     def get_one(self, id):
         pass
 
-    def store(self, json):
-        content = request.json
+    def store(self):
+        content = request.get_json()
 
         INN = content["INN"]
         name = content["companyName"]

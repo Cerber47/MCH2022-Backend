@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5cc5755-5fb4-4b2e-91d0-cd4d1ee0457b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Source/App.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Controllers/Partners.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Controllers/Partners.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/Controllers/Partners.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="228">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/Models/Partners.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="-220">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -72,10 +72,10 @@
         <option value="$PROJECT_DIR$/Source/Controllers/partners.py" />
         <option value="$PROJECT_DIR$/Source/Models/Parthner.py" />
         <option value="$PROJECT_DIR$/Source/App/App.py" />
-        <option value="$PROJECT_DIR$/Source/Controllers/Partners.py" />
         <option value="$PROJECT_DIR$/Source/Routers/Router.py" />
-        <option value="$PROJECT_DIR$/Source/Models/Partners.py" />
         <option value="$PROJECT_DIR$/Source/App.py" />
+        <option value="$PROJECT_DIR$/Source/Models/Partners.py" />
+        <option value="$PROJECT_DIR$/Source/Controllers/Partners.py" />
       </list>
     </option>
   </component>
@@ -258,13 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Models/Partners.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/App.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -275,10 +268,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Models/Partners.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Controllers/Partners.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="228">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
