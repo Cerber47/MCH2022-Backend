@@ -13,6 +13,7 @@ class PartnersController:
 
     def store(self):
         content = request.get_json()
+        print(content)
 
         INN = content["INN"]
         name = content["companyName"]
