@@ -1,4 +1,5 @@
 import time
+from bson.objectid import ObjectId
 
 
 class PartnersModel:
@@ -16,6 +17,10 @@ class PartnersModel:
                email,
                web
                ):
+
+        # Дефолтный статус - 0
+        # Также запоминаем время создания записи
+
         insert = self.dao.insert_one({
             "company": {
                 "INN": INN,
@@ -35,7 +40,6 @@ class PartnersModel:
             "status": 0,
             "creationDate": time.time()
         })
-        print(insert)
         return insert
 
     def read(self):
@@ -48,6 +52,11 @@ class PartnersModel:
         else:
             return {"Error": "No cursor founded"}
 
-    #def
+    def read_one(self, _id):
+        cursor = self.dao.find_one({"_id": ObjectId(_id)})
+        if cursor:
+            return cursor
+        else:
+            return {"Error": "No data found"}
 
 #

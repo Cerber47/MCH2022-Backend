@@ -1,6 +1,9 @@
 import json
 from bson import ObjectId
 
+# Кастомный енкодер для работы с монго
+# Нужно сериализовать только ObjectId
+
 
 class CustomJSONEncoder(json.JSONEncoder):
     def default(self, o):
